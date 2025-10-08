@@ -1,7 +1,7 @@
 {
-  "name": "pzs-dejman",
+  "name": "desktop-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is your README. READMEs are where you can communicate what your project is and how to use it.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DamianFabianLoL/PZS-dejman.git"
+    "url": "git+https://github.com/Sieberti50/desktop-tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DamianFabianLoL/PZS-dejman/issues"
+    "url": "https://github.com/Sieberti50/desktop-tutorial/issues"
   },
-  "homepage": "https://github.com/DamianFabianLoL/PZS-dejman#readme",
+  "homepage": "https://github.com/Sieberti50/desktop-tutorial#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
