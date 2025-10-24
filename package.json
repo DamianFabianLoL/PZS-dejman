@@ -4,7 +4,7 @@
   "description": "This is your README. READMEs are where you can communicate what your project is and how to use it.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
