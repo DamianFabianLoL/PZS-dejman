@@ -1,3 +1,5 @@
+import mysql from 'mysql2'
+const express = require('express');
 
 const http = require('http');
 const { PORT, LOG_FILE } = require('./constants');
@@ -29,3 +31,15 @@ process.on('unhandledRejection', (reason, promise) => {
 server.listen(PORT, () => {
   console.log(`Serwer działa na porcie ${PORT}`);
 });
+
+const pool = mysql.createPool({
+host: 'localhost',
+user: 'root',
+password: '',
+database: 'students'
+}).promise()
+
+async function getStudnets() {
+  const [rows] = await pool.query("SELECT * FROM students")
+  return rows;
+}

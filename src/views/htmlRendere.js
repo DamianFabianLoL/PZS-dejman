@@ -43,7 +43,6 @@ function formHTML() {
     <a href="/">Powrót</a>
   </body></html>`;
 }
-
 function addGuestHTML(name, date) {
   return `<!DOCTYPE html><html><head>${STYLE}</head><body>
     <p>Dodano: ${name} (${date})</p><a href="/list">Powrót do listy</a></body></html>`;

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/DamianFabianLoL/PZS-dejman#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mysql": "^2.18.1"
   }
 }
